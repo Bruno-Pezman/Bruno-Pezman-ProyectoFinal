@@ -5,6 +5,16 @@
 @import "bootstrap/bootstrap.scss";
 
 //mis estilos
+
+* {
+    Margin:0;
+    padding:0;
+ }
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
 @import "body";
 @import "nav";
 @import "header";
