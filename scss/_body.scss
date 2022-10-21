@@ -75,3 +75,20 @@ body {
     "footer footer"
     ;
 }
+
+/* Estilos links */
+link {
+    display: none;
+}
+a:link  {
+    color:rgb(233, 239, 245);
+}
+a:visited  {
+    color:rgb(233, 239, 245);
+}
+a:hover {
+    color: red;  
+}
+a:active  {
+    color: rgb(28, 0, 128);
+}
