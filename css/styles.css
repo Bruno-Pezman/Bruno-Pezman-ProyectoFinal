@@ -6799,23 +6799,15 @@ body {
 
 .contenedor-index {
   display: grid;
-  grid-template-areas: "nav"
- "header"
- "main-index"
- "footer"; }
+  grid-template-areas: "nav" "header" "main-index" "footer"; }
 
 .contenedor-bonustrack {
   display: grid;
-  grid-template-areas: "nav nav"
- "header-bonustrack main-bonustrack"
- "article article"
- "footer footer"; }
+  grid-template-areas: "nav nav" "header-bonustrack main-bonustrack" "article article" "footer footer"; }
 
 .contenedor-ustedes {
   display: grid;
-  grid-template-areas: "nav nav"
- "header main-ustedes"
- "footer footer"; }
+  grid-template-areas: "nav nav" "header main-ustedes" "footer footer"; }
 
 /* Estilos links */
 link {
