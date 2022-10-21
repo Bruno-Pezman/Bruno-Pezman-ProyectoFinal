@@ -6761,11 +6761,11 @@ body {
   body h1:hover, body .h1:hover {
     color: #c4c4c4; }
   body h2, body .h2 {
+    color: white;
     animation-name: entrada-derecha;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    color: white; }
+    animation-timing-function: ease-in-out; }
   body h2:hover, body .h2:hover {
     color: #c4c4c4; }
   body h3, body .h3 {
@@ -6794,6 +6794,22 @@ body {
 .contenedor-ustedes {
   display: grid;
   grid-template-areas: "nav nav" "header main-ustedes" "footer footer"; }
+
+/* Estilos links */
+link {
+  display: none; }
+
+a:link {
+  color: #e9eff5; }
+
+a:visited {
+  color: #e9eff5; }
+
+a:hover {
+  color: red; }
+
+a:active {
+  color: #1c0080; }
 
 /*Estilos nav*/
 .nav {
