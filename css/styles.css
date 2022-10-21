@@ -6745,10 +6745,11 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter; }
 
+/*Variables*/
 /*Estilos body*/
 body {
-  margin: 1rem;
-  padding: 1rem 0rem;
+  margin: 16px;
+  padding: 16px 0;
   line-height: 1.6;
   background: linear-gradient(rgba(42, 42, 43, 0.75), rgba(42, 42, 43, 0.75)), url(../img/rejas.png) no-repeat center fixed;
   background-size: cover; }
@@ -6814,7 +6815,7 @@ a:active {
 /*Estilos nav*/
 .nav {
   grid-area: nav;
-  padding: 1rem 0;
+  padding: 16px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -6846,6 +6847,10 @@ a:active {
   animation-timing-function: ease-in-out; }
 
 /*Estilos header*/
+.header {
+  grid-area: header;
+  padding: 16px; }
+
 /*Estilos main*/
 /*Estilos article*/
 /*Estilos footer*/

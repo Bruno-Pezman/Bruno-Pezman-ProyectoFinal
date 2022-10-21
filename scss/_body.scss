@@ -1,14 +1,14 @@
 /*Estilos body*/
 
 body {
-    margin:1rem;
-    padding: 1rem 0rem;
+    margin:$spacing*4;
+    padding: $spacing*4 0;
     line-height: 1.6;
     background: linear-gradient(rgba(42, 42, 43, 0.75),rgba(42, 42, 43, 0.75)), url(../img/rejas.png) no-repeat center fixed;
     background-size: cover;
 
     h1{
-        color:rgb(255, 255, 255);
+        color:$color-h;
         animation-name: entrada-izquierda;
         animation-duration: 0.5s;
         animation-iteration-count: 1;
@@ -16,10 +16,10 @@ body {
         
     }
     h1:hover{
-        color: rgb(196, 196, 196);
+        color: $color-h-hover;
     }
     h2{
-        color:rgb(255, 255, 255);
+        color:$color-h;
         animation-name: entrada-derecha;
         animation-duration: 1s;
         animation-iteration-count: 1;
@@ -27,23 +27,23 @@ body {
         
     }
     h2:hover{
-        color: rgb(196, 196, 196);
+        color: $color-h-hover;
     }
     h3{
-        color: rgb(255, 255, 255);
+        color: $color-h;
         font-size: 1.3rem;
         
     }
     h4{
         font-size: 1.8rem;
-        color: rgb(255, 255, 255);
+        color: $color-h;
         animation-name: entrada-izquierda;
         animation-duration: 0.5s;
         animation-iteration-count: 1;
         animation-timing-function: ease-in-out;
     }
     h4:hover{
-        color: rgb(196, 196, 196);
+        color: $color-h-hover;
     }
     p{
         color: rgb(216, 216, 216);
