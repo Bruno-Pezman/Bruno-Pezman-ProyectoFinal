@@ -1,1 +1,29 @@
 /* Estilos footer */
+
+footer{
+    grid-area: footer;
+    
+    hr{
+        color: rgb(216, 216, 216);
+    }
+    div ul{
+        padding: 0;
+        text-align: center;
+
+        li{
+            list-style-type: none;
+            display: inline-block;
+
+            a i:hover{
+                transform: scale(1.7);
+                transition-property: all; 
+                transition-timing-function: ease-in-out;
+            }
+        }
+    
+    }
+}
+#copyright{
+    font-size: 0.8em;
+    text-align: center;
+}
