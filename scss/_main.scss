@@ -1,2 +1,24 @@
-/*Estilos main*/
+/* Estilos main*/
 
+main{
+    p{
+        padding-bottom: $spacing*4;
+        text-align: left;
+    }
+    div img:hover{
+        transform: scale(1.1);
+        transition-property: all; 
+        transition-timing-function: ease-in-out;
+    }
+}
+/* Estilos main-index*/
+
+.fotos-index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#fotosdemarce{
+    padding: $spacing*6 $spacing*6;
+   
+}

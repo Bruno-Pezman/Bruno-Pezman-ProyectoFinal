@@ -6745,8 +6745,21 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter; }
 
-/*Variables*/
-/*Estilos body*/
+/* Variables */
+/* Animaciones */
+@keyframes entrada-izquierda {
+  0% {
+    transform: translatex(-1000px); }
+  100% {
+    transform: translatex(0); } }
+
+@keyframes entrada-derecha {
+  0% {
+    transform: translatex(1200px); }
+  100% {
+    transform: translatex(0); } }
+
+/* Estilos body */
 body {
   margin: 16px;
   padding: 16px 0;
@@ -6812,7 +6825,7 @@ a:hover {
 a:active {
   color: #1c0080; }
 
-/*Estilos nav*/
+/* Estilos nav */
 .nav {
   grid-area: nav;
   padding: 16px 0;
@@ -6846,11 +6859,29 @@ a:active {
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out; }
 
-/*Estilos header*/
+/* Estilos header */
 .header {
   grid-area: header;
   padding: 16px; }
 
-/*Estilos main*/
-/*Estilos article*/
-/*Estilos footer*/
+/* Estilos main*/
+main p {
+  padding-bottom: 16px;
+  text-align: left; }
+
+main div img:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-timing-function: ease-in-out; }
+
+/* Estilos main-index*/
+.fotos-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#fotosdemarce {
+  padding: 24px 24px; }
+
+/* Estilos article */
+/* Estilos footer */

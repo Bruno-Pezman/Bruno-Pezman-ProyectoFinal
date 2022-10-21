@@ -1,0 +1,8 @@
+// Mixin
+
+@mixin size ($alto, $ancho, $espaciado) {
+    
+    height: $alto;
+    width: $ancho;
+    padding: $espaciado;
+}
