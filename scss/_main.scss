@@ -24,6 +24,55 @@ main{
    
 }
 
+/* Estilos main-noticias */
+.main-noticias{
+    margin:$spacing*4;
+}
+.novedades{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.agosto22{
+    font-size: 1.4rem;
+    padding-left: $spacing*12;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+#lagunas{
+    @include size (380px, 380px, 0);
+}
+.shows-section{
+    font-size: 1.4rem;
+    padding-top: $spacing*8;
+}
+.shows{
+    padding: $spacing*4 0;
+    display: flex;
+    flex-direction: row;
+   
+}
+.img-main-noticias-shows{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+#showensantelmo{
+
+    @include size (348px, 348px, 1rem 1rem 1rem 0);
+    display: inline-block ;
+
+}
+#showenlaboca{
+    @include size (348px, 348px, 1rem 1rem 1rem 0);
+    display:inline-block; 
+}
+
 /* Estilos main-videos */
 
 .main-videos{

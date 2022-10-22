@@ -6895,6 +6895,54 @@ main div img:hover {
 #fotosdemarce {
   padding: 24px 24px; }
 
+/* Estilos main-noticias */
+.main-noticias {
+  margin: 16px; }
+
+.novedades {
+  display: flex;
+  flex-direction: row;
+  align-content: center; }
+
+.agosto22 {
+  font-size: 1.4rem;
+  padding-left: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+#lagunas {
+  height: 380px;
+  width: 380px;
+  margin: 0; }
+
+.shows-section {
+  font-size: 1.4rem;
+  padding-top: 32px; }
+
+.shows {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row; }
+
+.img-main-noticias-shows {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between; }
+
+#showensantelmo {
+  height: 348px;
+  width: 348px;
+  margin: 1rem 1rem 1rem 0;
+  display: inline-block; }
+
+#showenlaboca {
+  height: 348px;
+  width: 348px;
+  margin: 1rem 1rem 1rem 0;
+  display: inline-block; }
+
 /* Estilos main-videos */
 .main-videos {
   margin: 1rem;
@@ -6934,6 +6982,7 @@ form {
 
 /* Estilos article */
 .article-bonustrack {
+  padding: 16px;
   display: flex;
   flex-direction: column; }
 
