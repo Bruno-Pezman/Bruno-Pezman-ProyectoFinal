@@ -62,10 +62,11 @@ body {
 .contenedor-bonustrack{
     display: grid;
     grid-template-areas: 
-    "nav nav"
-    "header-bonustrack main-bonustrack"
-    "article article"
-    "footer footer"
+    "nav"
+    "header-bonustrack"
+    "main-bonustrack"
+    "article-bonustrack"
+    "footer"
     ;
 }
 .contenedor-ustedes{

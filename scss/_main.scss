@@ -23,3 +23,49 @@ main{
     padding: $spacing*6 $spacing*6;
    
 }
+
+/* Estilos main-videos */
+
+.main-videos{
+    margin:1rem;
+    display:flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+iframe{
+    width:560px; 
+    height:315px;
+}
+
+/* Estilos main-bonustrack */
+.main-bonustrack{
+    grid-area: main-bonustrack;
+    margin: o;
+    padding: $spacing*4;
+    display: flex;
+    flex-direction: row;
+}
+
+#influencias {
+    display: inline-block ;
+
+    @include size (280px, 280px, 16px);
+}
+
+/* Estilos main-ustedes */
+
+.main-ustedes{
+    margin:1rem;
+    grid-area: main-ustedes;
+}
+form {
+    display: inline-block;
+
+    div input{
+        font-size: 16px;
+    }
+    
+}

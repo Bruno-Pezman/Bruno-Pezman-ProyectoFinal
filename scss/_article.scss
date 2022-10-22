@@ -1,1 +1,23 @@
 /* Estilos article */
+
+.article-bonustrack{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-bonustrack-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#playlist{
+
+    @include size (200px, 520px, 0)
+}
+
+article div img:hover{
+    transform: scale(1.1);
+    transition-property: all; 
+    transition-timing-function: ease-in-out;
+}
