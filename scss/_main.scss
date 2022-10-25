@@ -29,8 +29,7 @@ main{
     margin:$spacing*5;
 }
 .novedades{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     align-content: center;
     
 }
@@ -54,8 +53,7 @@ main{
    
 }
 .img-main-noticias-shows{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     align-content: space-between;
 }
 #showensantelmo{
@@ -84,8 +82,8 @@ main{
     grid-area: main-bonustrack;
     margin: 0;
     padding: $spacing*4 $spacing*5;
-    display: flex;
-    flex-direction: row;
+    
+    @include flex-row;
 }
 
 #influencias {

@@ -8,8 +8,7 @@
 }
 
 .article-bonustrack-item{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: space-around;
 }
 .article-bonustrack-p{
