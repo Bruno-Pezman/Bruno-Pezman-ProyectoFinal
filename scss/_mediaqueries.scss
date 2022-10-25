@@ -62,21 +62,12 @@
         
     }
 
-    .main-noticias-item1{
-        
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    .main-noticias-item1{ 
+       @include flex;
     }
 
     .main-noticias-item2{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+        @include flex;
     }
 
     .img-main-noticias-shows{
@@ -290,6 +281,7 @@
     /* Estilos main-bonustrack */
 
     .main-bonustrack-item{
-        padding: $spacing*3;
+        padding-left:0;
+        padding-right: $spacing*4;
     }
 }

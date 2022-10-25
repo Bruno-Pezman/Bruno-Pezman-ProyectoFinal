@@ -20,13 +20,13 @@ main{
     justify-content: center;
 }
 #fotosdemarce{
-    padding: $spacing*6 $spacing*6;
+    padding: $spacing*6;
    
 }
 
 /* Estilos main-noticias */
 .main-noticias{
-    margin:$spacing*4;
+    margin:$spacing*5;
 }
 .novedades{
     display: flex;
@@ -38,11 +38,7 @@ main{
     font-size: 1.4rem;
     padding-left: $spacing*12;
     
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
+    @include flex;
 }
 #lagunas{
     @include size (380px, 380px, 0);
@@ -77,19 +73,17 @@ main{
 
 .main-videos{
     margin:1rem;
-    display:flex;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 60vh;
+
+    @include flex;
+    
 }
 
 /* Estilos main-bonustrack */
 .main-bonustrack{
     grid-area: main-bonustrack;
-    margin: o;
-    padding: $spacing*4;
+    margin: 0;
+    padding: $spacing*4 $spacing*5;
     display: flex;
     flex-direction: row;
 }
