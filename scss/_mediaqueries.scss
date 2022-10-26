@@ -93,7 +93,7 @@
         display: grid;
         grid-template-areas: 
         "nav"
-        "header" 
+        "header-ustedes" 
         "main-ustedes"
         "footer"
         ;
@@ -107,6 +107,7 @@
 
     /* Estilos Header-ustedes*/
     .header-ustedes{
+        grid-area: header-ustedes;
         text-align: center;
         align-content: center;
     }

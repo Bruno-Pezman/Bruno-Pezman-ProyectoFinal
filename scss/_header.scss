@@ -9,12 +9,14 @@
 /* Estilos Header-bonustrack */
 
 .header-bonustrack{
+    grid-area: header-bonustrack;
     padding: 0 $spacing*4;
 }
 
 /* Estilos header-ustedes */
 
 .header-ustedes{
+    grid-area: header-ustedes;
     margin: 0;
     padding: $spacing*2;
 

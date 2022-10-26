@@ -97,6 +97,8 @@ main{
 .main-ustedes{
     margin:1rem;
     grid-area: main-ustedes;
+
+    @extend .main-center;
 }
 form {
     display: inline-block;
