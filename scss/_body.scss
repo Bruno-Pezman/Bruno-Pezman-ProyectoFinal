@@ -9,21 +9,13 @@ body {
 
     h1{
         color:$color-h;
-        animation-name: entrada-izquierda;
-        animation-duration: 0.5s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
-        
     }
     h1:hover{
         color: $color-h-hover;
     }
     h2{
         color:$color-h;
-        animation-name: entrada-derecha;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
+        
         
     }
     h2:hover{
@@ -37,10 +29,7 @@ body {
     h4{
         font-size: 1.8rem;
         color: $color-h;
-        animation-name: entrada-izquierda;
-        animation-duration: 0.5s;
-        animation-iteration-count: 1;
-        animation-timing-function: ease-in-out;
+
     }
     h4:hover{
         color: $color-h-hover;

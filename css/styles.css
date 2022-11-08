@@ -6213,19 +6213,11 @@ body {
   background: linear-gradient(rgba(42, 42, 43, 0.75), rgba(42, 42, 43, 0.75)), url(../img/rejas.png) no-repeat center fixed;
   background-size: cover; }
   body h1, body .h1 {
-    color: white;
-    animation-name: entrada-izquierda;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; }
+    color: white; }
   body h1:hover, body .h1:hover {
     color: #c4c4c4; }
   body h2, body .h2 {
-    color: white;
-    animation-name: entrada-derecha;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; }
+    color: white; }
   body h2:hover, body .h2:hover {
     color: #c4c4c4; }
   body h3, body .h3 {
@@ -6233,11 +6225,7 @@ body {
     font-size: 1.3rem; }
   body h4, body .h4 {
     font-size: 1.8rem;
-    color: white;
-    animation-name: entrada-izquierda;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out; }
+    color: white; }
   body h4:hover, body .h4:hover {
     color: #c4c4c4; }
   body p {
