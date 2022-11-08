@@ -6395,11 +6395,8 @@ main div img:hover {
   display: flex;
   flex-direction: row; }
 
-.main-bonustrack-item {
-  padding-right: 20px; }
-
 #influencias {
-  padding: 32px; }
+  padding: 28px; }
 
 /* Estilos main-ustedes */
 .main-ustedes {
