@@ -6407,11 +6407,11 @@ main div img:hover {
   display: flex;
   flex-direction: row; }
 
+.main-bonustrack-item {
+  padding-right: 20px; }
+
 #influencias {
-  display: inline-block;
-  height: 280px;
-  width: 280px;
-  margin: 16px; }
+  padding: 32px; }
 
 /* Estilos main-ustedes */
 .main-ustedes {

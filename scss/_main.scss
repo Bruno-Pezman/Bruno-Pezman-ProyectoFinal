@@ -86,10 +86,12 @@ main{
     @include flex-row;
 }
 
-#influencias {
-    display: inline-block ;
+.main-bonustrack-item{
+    padding-right: $spacing*5 ;
+}
 
-    @include size (280px, 280px, 16px);
+#influencias {
+  padding: $spacing*8;
 }
 
 /* Estilos main-ustedes */
